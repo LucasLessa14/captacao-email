@@ -1,6 +1,10 @@
 require('dotenv').config();
 
-const port = process.env.PORT || 3202;
+const PORT = process.env.PORT || 3202;
+const HOST = process.env.HOST || '0.0.0.0';
+
+const knex = require('./database');
+
 const routes = require('./routes');
 
 const express = require('express');
@@ -13,4 +17,4 @@ app.use(cors());
 
 app.use('/', routes);
 
-app.listen(port, () => console.log(`BACKEND is running on port ${port}`));
+app.listen(PORT, HOST, () => console.log(`BACKEND is running on port ${PORT}`));
