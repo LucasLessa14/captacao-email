@@ -7,7 +7,7 @@ API para sistema de captação de emails
 - Postgres
 - Knex.js
 
-### Esquema do Banco de Dados
+## Esquema do Banco de Dados
 
 `id`
 `email`
