@@ -1,0 +1,19 @@
+{
+  "name": "captacao-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LucasLessa14/captacao-email.git"
+  },
+  "author": "Lucas Lessa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasLessa14/captacao-email/issues"
+  },
+  "homepage": "https://github.com/LucasLessa14/captacao-email#readme"
+}
