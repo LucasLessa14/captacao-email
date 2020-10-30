@@ -1,8 +1,8 @@
 
 exports.up = async knex => knex.schema.createTable('email', table => {
     table.increments('id');
-    table.text('email').unique().notNullable();
-    table.text('username').notNullable();
+    table.text('email').notNullable();
+    table.text('name').notNullable();
 
     table.timestamp('created_at').defaultTo(knex.fn.now());
 });
